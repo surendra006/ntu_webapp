@@ -538,7 +538,6 @@
     <Compile Include="Properties\App_Start\RouteConfig.cs" />
     <Compile Include="Properties\App_Start\WebApiConfig.cs" />
     <Compile Include="auth.cs" />
-    <Compile Include="App_Data\AccountController.cs" />
     <Compile Include="Controllers\DeviceController.cs" />
     <Compile Include="Controllers\EntryController.cs" />
     <Compile Include="Controllers\ExitController.cs" />
@@ -652,7 +651,9 @@
       <DependentUpon>Available_Projects_list_for_Agents.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="Account\Web.config" />
     <Content Include="Site.Master" />
