@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<!-- Fonts -->
+	<link href="./fonts/fontAwesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="screen" title="stylesheet" />
+	<link href="./fonts/fontello/css/fontello.css" rel="stylesheet" type="text/css" media="screen" title="stylesheet" />
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css' />
+	
+	<!-- CSS -->
+	<link href="./css/stylenew.css" rel="stylesheet" type="text/css" media="screen" title="stylesheet" />
+	<link href="./css/responsive1.css" rel="stylesheet" type="text/css" media="screen" title="stylesheet" />
+	<link href="./css/custom1.css" rel="stylesheet" type="text/css" media="screen" title="stylesheet" />
+
+    <!-- Scripts -->
+	<script src="/libs/jquery-ui-1.10.1.custom.min.js"></script>
+    <script src="libs/jquery-1.8.2.min.js" type="text/javascript"></script>
+    </head>
+
+    <body>
+    <div class="full-block">
+    <div class="customer-portal-heading">Suppliers Portal</div>
+    <div class="welcome-message"> Welcome "Supplier-name" </div>
+
+    <div class="supplier-portal">     
+    
+			<ul class="inputs black-input large">
+				<!-- The autocomplete="off" attributes is the only way to prevent webkit browsers from filling the inputs with yellow -->
+                <li><span class="icon-plus mid-margin-right" id="plus-minus"></span><a class="my-projects">My Projects</a></li>       
+                <div class="list-circle">        
+                <ul id="My-projects-hide"> 
+                <li>Crowd-simulation API </li>
+                <li>Interactive game design API </li>
+                 </ul>
+                 </div>
+
+                <li><span class="icon-plus mid-margin-right" id="plus-minus1"></span><a class="my-bidded-projects">Projects bidded</a></li>       
+                <div class="list-circle">        
+                <ul id="My-projects-bidded-hide"> 
+                <li>Crowd-simulation API </li>
+                <li>Interactive game design API </li>
+                 </ul>
+                 </div>
+
+                <li><span class="icon-download  mid-margin-right"></span><a class="Available-products" href="Available_Projects_list_for_suppliers.aspx">Available Projects</a></li>  
+
+                <li><span class="icon-user  mid-margin-right"></span><a class="hr-support">HR Support</a></li>        
+                   
+                <div class="inactive textarea-button-combo"><textarea rows="5" cols="26" id="prod-desc" type="text" placeholder="Couldnt find the project you are looking for ?? Enter the description of the project you are looking for !!"></textarea>             
+                 <div class="enquiry-button"><button type="submit" class="button glossy full-width huge">Submit Enquiry</button></div></div>
+                </div>                
+			</ul>
+          </div>
+		</div>
+
+        <script>
+            $(document).ready(function () {
+                $('#My-projects-hide').hide();
+                $('#My-projects-bidded-hide').hide();
+               
+            });
+
+            $(".my-projects").click(function () {
+                if ($('#plus-minus').hasClass("icon-plus")) {
+                    $('#My-projects-hide').show();
+                    $('#plus-minus').removeClass("icon-plus");
+                    $('#plus-minus').addClass("icon-minus");
+                }
+                else {
+                    $('#My-projects-hide').hide();
+                    $('#plus-minus').removeClass("icon-minus");
+                    $('#plus-minus').addClass("icon-plus");
+                }
+            });
+
+            $(".my-bidded-projects").click(function () {
+                if ($('#plus-minus1').hasClass("icon-plus")) {
+                    $('#My-projects-bidded-hide').show();
+                    $('#plus-minus1').removeClass("icon-plus");
+                    $('#plus-minus1').addClass("icon-minus");
+                }
+                else {
+                    $('#My-projects-bidded-hide').hide();
+                    $('#plus-minus1').removeClass("icon-minus");
+                    $('#plus-minus1').addClass("icon-plus");
+                }
+            });
+
+            $(".enquiry").click(function () {
+                if ($('.textarea-button-combo').hasClass("inactive")) {
+                    $('.textarea-button-combo').show();
+                    $('.textarea-button-combo').removeClass("inactive");
+                }
+                else {
+                    $('.textarea-button-combo').hide();
+                    $('.textarea-button-combo').addClass("inactive");
+                }
+            });         
+
+        </script>
+        </body>
+        </html>
+ 
+   

@@ -1,0 +1,8 @@
+C:\Users\User\Documents\Visual Studio 2010\Projects\Tbx_website\Tbx_website\bin\Tbx_website.dll
+C:\Users\User\Documents\Visual Studio 2010\Projects\Tbx_website\Tbx_website\bin\Tbx_website.pdb
+C:\Users\User\Documents\Visual Studio 2010\Projects\Tbx_website\Tbx_website\bin\System.Web.Optimization.dll
+C:\Users\User\Documents\Visual Studio 2010\Projects\Tbx_website\Tbx_website\bin\WebGrease.dll
+C:\Users\User\Documents\Visual Studio 2010\Projects\Tbx_website\Tbx_website\bin\Antlr3.Runtime.dll
+C:\Users\User\Documents\Visual Studio 2010\Projects\Tbx_website\Tbx_website\obj\Debug\Tbx_website.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2010\Projects\Tbx_website\Tbx_website\obj\Debug\Tbx_website.dll
+C:\Users\User\Documents\Visual Studio 2010\Projects\Tbx_website\Tbx_website\obj\Debug\Tbx_website.pdb
