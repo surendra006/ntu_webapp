@@ -52,7 +52,7 @@
             {
                 $('#My-projects-hide').show();
                 $('#plus-minus').removeClass("icon-plus");
-                $('#plus-minus').addClass("icon-minus");            
+                $('#plus-minus').addClass("icon-minus");            sdfafas
              }
             else {
                 $('#My-projects-hide').hide();
